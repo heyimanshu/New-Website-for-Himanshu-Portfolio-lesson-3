@@ -31,22 +31,40 @@
     <h6>Sixth Heading</h6>
     <p>This is paragraph witll have a <strong>Strong/bold</strong> text</p>
     <small>This is the small text using html</small>
-    <hr>
+    <hr> 
+    <h3>@contianer</h3>
+    <h2>center contaier</h2>
+    <div class="contianer container-center"> This is a center  contianer and it will go till a specific width</div>
+
     <h3>@contianer</h3>
     <h2>Fluid Container</h2>
-    <div>This is a fluid contianer</div>
+    <div class="contianer"> This is a fluid contianer</div>
+
+<hr>
     <hr>
 
-    <h1>Link</h1>
+    <h1>@link</h1>
 
-    <a href="https://www.google.com/">Google</a>
+    <a class="link link-primary " href="https://www.google.com/">Primary Link</a>
+   
+    <a class="link link-secondry" href="https://www.facebook.com/">Secondry Link</a>
+
+    <hr>
 
     <hr>
 
     <h1>@Lists</h1>
 
     <h2>unordered list</h2>
+    <p>This list will have the bullet points</p>
     <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <p>This list will not have the bullet points</p>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item Three</li>
@@ -54,9 +72,9 @@
 
     <h2>Inline unordered list</h2>
     <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item Three</li>
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item Three</li>
     </ul>
 
     <h2>Ordered List</h2>
@@ -72,16 +90,17 @@
 
     <H1>@navigation</H1>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div>Brand Name</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">About Me</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About Me</a>
             </li>
         </ul>
     </nav>

@@ -2,3 +2,86 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --primary-color: #E14D2A;
+}
+
+:root {
+    --secondry-color: #3E6D9C;
+}
+
+
+
+
+hr { 
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background: var(--secondry-color); 
+    border: none;
+    outline: none;
+    padding: 0px !important;
+    margin: 20px 0 13px 0 !important; 
+    }
+
+
+/* hr {
+    margin: 2rem 0rem;
+} */
+
+
+/* .hr {
+margins: 20px 20px 13px 0 2rem;
+
+} */
+
+
+.container{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.container-center {
+max-width: 600px;
+margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.4rem 0.4rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.link-secondry {
+color: var(--primary-color);
+border-radius: 0.5rem;
+border: 1px solid var(--primary-color);
+}
+
+/* List */
+
+.list-non-bullet {
+list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 1rem; 5rem;
+}
+
+/* Navigation */
+
+.navigation {
+    background-color: var(--secondry-color);
+    color: white;
+}
+
+.navigation .link {
+    color: white;
+    
+}
