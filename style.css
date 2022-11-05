@@ -79,9 +79,25 @@ list-style: none;
 .navigation {
     background-color: var(--secondry-color);
     color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
 
 .navigation .link {
     color: white;
     
+}
+.navigation .nav-pills{
+    text-align: left;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
 }
