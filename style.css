@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 :root {
     --primary-color: #E14D2A;
+    --offwhite-color: #DFDFDE;
+    --dark-blue: #001253;
 }
 
 :root {
@@ -14,16 +17,16 @@ body{
 
 
 
-hr { 
+hr {
     display: block;
     width: 100%;
     height: 1.5px;
-    background: var(--secondry-color); 
+    background: var(--secondry-color);
     border: none;
     outline: none;
     padding: 0px !important;
-    margin: 20px 0 13px 0 !important; 
-    }
+    margin: 20px 0 13px 0 !important;
+}
 
 
 /* hr {
@@ -37,14 +40,14 @@ margins: 20px 20px 13px 0 2rem;
 } */
 
 
-.container{
-padding-left: 1rem;
-padding-right: 1rem;
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container-center {
-max-width: 600px;
-margin: auto;
+    max-width: 600px;
+    margin: auto;
 }
 
 .link {
@@ -58,20 +61,21 @@ margin: auto;
 }
 
 .link-secondry {
-color: var(--primary-color);
-border-radius: 0.5rem;
-border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
 /* List */
 
 .list-non-bullet {
-list-style: none;
+    list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
-    padding: 1rem; 5rem;
+    padding: 1rem;
+    5rem;
 }
 
 /* Navigation */
@@ -91,13 +95,48 @@ list-style: none;
 
 .navigation .link {
     color: white;
-    
+
 }
-.navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: left;
 }
 
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    P padding-top: 1rem;
+    color: var(--dark-blue)
+}
+
+.hero .hero-heading .heading-inverted {
+    font-size: 3rem;
+    color: var(--primary-color)
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+background-color: var(--offwhite-color);
 }
