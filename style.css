@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -139,4 +140,19 @@ margins: 20px 20px 13px 0 2rem;
 
 .ow {
 background-color: var(--offwhite-color);
+}
+
+/* 
+Footer */
+
+.footer {
+    background-color: var(--secondry-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white; 
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
 }
