@@ -17,7 +17,6 @@ body {
 
 
 
-
 hr {
     display: block;
     width: 100%;
@@ -85,6 +84,7 @@ margins: 20px 20px 13px 0 2rem;
     background-color: var(--secondry-color);
     color: white;
     padding: 1rem;
+
     border-bottom-left-radius: 1rem;
 
 }
